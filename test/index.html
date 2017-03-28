@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>David Chu's China Bistro</title>
+    <link rel="icon" href="images/restaurant-logo-favicon.png" type="image/png" sizes="16x16">
     <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -115,6 +116,8 @@
     <script src="lib/bootstrap.min.js"></script>
     <script src="lib/angular.min.js"></script>
     <script src="lib/angular-ui-router.min.js"></script>
+    <script src="lib/ng-file-upload/ng-file-upload-shim.min.js"></script>
+    <script src="lib/ng-file-upload/ng-file-upload.min.js"></script>
 
     <!-- Main Restaurant Module -->
     <script src="src/restaurant.module.js"></script>
@@ -134,8 +137,19 @@
     <script src="src/public/menu-item/menu-item.component.js"></script>
 
     <!-- ADMIN SITE -->
+    <script src="src/admin/admin.module.js"></script>
+    <script src="src/admin/admin.routes.js"></script>
+    <script src="src/admin/admin-auth/admin-auth.controller.js"></script>
+    <script src="src/admin/services/login.service.js"></script>
+    <script src="src/admin/services/current-user.service.js"></script>
+    <script src="src/admin/services/authredirector.service.js"></script>
+    <script src="src/admin/auth.interceptor.js"></script>
+    <script src="src/admin/login/login.controller.js"></script>
+    <script src="src/admin/category/category-list.component.js"></script>
+    <script src="src/admin/category/category-items.controller.js"></script>
+    <script src="src/admin/menu-item/menu-item-edit.controller.js"></script>
+    <script src="src/admin/menu-item/menu-item-admin.component.js"></script>
 
-    <!--Application files -->
 
   </body>
 
